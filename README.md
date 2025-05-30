@@ -1,13 +1,13 @@
-# TikTok Video View Bot 
+# TikTok Video View Bot
 
-## Introduction 
+## Introduction
 
-This Python script is designed to send simulated view requests to the TikTok API for a specified video. It achieves this by generating randomized device parameters and headers for each request, and it can operate using a list of proxies to enhance its effectiveness and distribution. 
+This Python script is designed to send simulated view requests to the TikTok API for a specified video. It achieves this by generating randomized device parameters and headers for each request, and it can operate using a list of proxies to enhance its effectiveness and distribution.
   
-## Requirements  
+## Requirements
    
-The script requires Python 3.7 or higher and the following libraries: 
-  
+The script requires Python 3.7 or higher and the following libraries:
+
 - `aiohttp`: For making asynchronous HTTP requests.
 - `aiofiles`: For asynchronously reading files (like the proxies list).
 - `uuid`: To generate unique identifiers.
